@@ -3,6 +3,7 @@ name: publish-flakehunt
 on:
   release:
     types: [published]
+  workflow_dispatch: {}
 
 permissions:
   id-token: write
