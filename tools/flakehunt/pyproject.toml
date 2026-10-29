@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flakehunt"
+version = "0.1.0"
+description = "Confirm and narrow flaky test failures: rerun hammers and seed hunts with honest verdicts"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "juzorei" }]
+keywords = ["flaky-tests", "pytest", "ci", "agent-skills", "testing"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.urls]
+Homepage = "https://github.com/juzorei/flakehunt"
+
+[project.scripts]
+flakehunt = "flakehunt.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,21 @@
+{
+  "name": "flakehunt",
+  "owner": {
+    "name": "juzorei"
+  },
+  "metadata": {
+    "description": "Flaky test hunting: confirm the flake before fixing it, prove the fix after",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "flakehunt",
+      "description": "Prove and narrow flaky test failures with rerun hammers and seed hunts; honest quarantine rules",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/flaky-test-hunting"
+      ]
+    }
+  ]
+}

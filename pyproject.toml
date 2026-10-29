@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+testpaths = ["tools/flakehunt/tests", "skills"]
+pythonpath = ["tools/flakehunt/src"]
+python_files = ["test_*.py"]
