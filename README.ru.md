@@ -27,6 +27,16 @@ pip install flakehunt
 npx skills add juzorei/flakehunt
 ```
 
+## Ещё из портфеля
+
+Один из серии прицельных наборов «скилл + CLI» одного автора:
+
+- [ci-autopsy](https://github.com/juzorei/ci-autopsy) — классифицируй упавшие прогон до перезапуска
+- [loglens](https://github.com/juzorei/loglens) — когда флак оставил след в логах
+- [bumpmap](https://github.com/juzorei/bumpmap) — это апгрейд сломал или всё-таки флак?
+
+Остальные — в [профиле juzorei](https://github.com/juzorei?tab=repositories).
+
 ## Рамки
 
 Прогоняй пробники против своих сьютов; хаммеринг внешних сервисов перекладывает твою CI-нагрузку на чужие квоты — такие тесты должны сидеть за моками.

@@ -31,6 +31,16 @@ pip install flakehunt
 npx skills add juzorei/flakehunt
 ```
 
+## More from this portfolio
+
+Part of a series of focused skill+CLI tools by the same author:
+
+- [ci-autopsy](https://github.com/juzorei/ci-autopsy) — classify failed runs before rerunning them
+- [loglens](https://github.com/juzorei/loglens) — when the flake left its trace in the logs
+- [bumpmap](https://github.com/juzorei/bumpmap) — did the upgrade break it or is it a flake?
+
+Browse the rest at the [juzorei profile](https://github.com/juzorei?tab=repositories).
+
 ## Scope
 
 Run the probes against suites you own; hammering external services pushes your CI load onto someone else's quota — such tests belong behind mocks.
